@@ -20,14 +20,18 @@ body {
 
 .input {
     text-align: center;
-    font-size: 100px;
-    width: 120px;
-    height: 120px;
+    font-size: 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    border: 2px solid black;
 }
 
 .button {
     font-size: 30px;
     margin-top: 60px;
+    border-radius: 15px;
+    border: 2px solid black;
 }
 
 .usedWord {
