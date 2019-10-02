@@ -54,7 +54,7 @@ function checkLetter() {
             } else {
                 intentos--;
             }
-            document.getElementById("image").src = "../images/" + intentos + ".png";
+            document.getElementById("image").src = "./images/" + intentos + ".png";
             document.getElementById("usedWord").innerHTML += letra + "&nbsp;";
             document.getElementById("input").value = "";
             window.setTimeout(checkEndGame, 100);
